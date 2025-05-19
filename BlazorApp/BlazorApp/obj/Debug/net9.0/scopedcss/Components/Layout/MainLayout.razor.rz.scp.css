@@ -1,98 +1,122 @@
-.page[b-qgsvw684bo] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
 
 main[b-qgsvw684bo] {
-    flex: 1;
+    min-height: 100vh;
+    margin: 0;
 }
+    main#bg.blue[b-qgsvw684bo] {
+        display: flex;
+        background: linear-gradient(-45deg, #1CB5E0, #000046);
+        background-size: 400% 400%;
+        animation: Gradient-b-qgsvw684bo 15s ease infinite;
+        color: #fff;
+        width: 100%;
+        flex-grow: 1;
+    }
+    main#bg.pink[b-qgsvw684bo] {
+        display: flex;
+        background: linear-gradient(-45deg, #F2C1D1, #ff1b8d);
+        background-size: 400% 400%;
+        animation: Gradient-b-qgsvw684bo 15s ease infinite;
+        color: #fff;
+        width: 100%;
+        flex-grow: 1;
+    }
+    main#bg.dark[b-qgsvw684bo] {
+        display: flex;
+        background: linear-gradient(-45deg, #555555, #000000);
+        background-size: 400% 400%;
+        animation: Gradient-b-qgsvw684bo 15s ease infinite;
+        color: #fff;
+        width: 100%;
+        flex-grow: 1;
+    }
 
 .sidebar[b-qgsvw684bo] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 15vw;
 }
 
-.top-row[b-qgsvw684bo] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
+.toprow[b-qgsvw684bo] {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+}
+.toprow .blue[b-qgsvw684bo]{
+    background-color: #fff;
+}
+.toprow .pink[b-qgsvw684bo]{
+    background-color: #E30B5D;
+}
+.toprow .dark[b-qgsvw684bo]{
+    background-color: #000;
+}
+
+menu[b-qgsvw684bo] {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px 0px #aaaaaa;
+    background: #dfdfdf;
+    color: #000;
+    height: 50px;
 }
 
-    .top-row[b-qgsvw684bo]  a, .top-row[b-qgsvw684bo]  .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
-
-    .top-row[b-qgsvw684bo]  a:hover, .top-row[b-qgsvw684bo]  .btn-link:hover {
-        text-decoration: underline;
-    }
-
-    .top-row[b-qgsvw684bo]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row[b-qgsvw684bo] {
-        justify-content: space-between;
-    }
-
-    .top-row[b-qgsvw684bo]  a, .top-row[b-qgsvw684bo]  .btn-link {
-        margin-left: 0;
-    }
+.container[b-qgsvw684bo] {
+    display:flex;
+    width: 30%;
 }
 
-@media (min-width: 641px) {
-    .page[b-qgsvw684bo] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-qgsvw684bo] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-
-    .top-row[b-qgsvw684bo] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .top-row.auth[b-qgsvw684bo]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
-
-    .top-row[b-qgsvw684bo], article[b-qgsvw684bo] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
+.menu-container[b-qgsvw684bo] {
+    justify-content: space-around;
+    margin: 0;
+    height: 65px;
 }
 
-#blazor-error-ui[b-qgsvw684bo] {
-    color-scheme: light only;
-    background: lightyellow;
-    bottom: 0;
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    display: none;
-    left: 0;
-    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+.menu-items[b-qgsvw684bo] {
+    display: flex;
+    margin:10px;
+}
+
+.menu-items li[b-qgsvw684bo] {
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.logo[b-qgsvw684bo] {
+    height: 40px;
+}
+
+#footerClass[b-qgsvw684bo] {
+    background-color: #fff;
     position: fixed;
-    width: 100%;
-    z-index: 1000;
+    bottom: 0;
+    width: 100vw;
+    height: 20px;
+    text-align: center;
+}
+.footerClass .blue[b-qgsvw684bo]{
+    background-color: #fff;
+}
+.footerClass .pink[b-qgsvw684bo] {
+    background-color: #E30B5D;
+}
+.footerClass .dark[b-qgsvw684bo] {
+    background-color: #000;
+    color:#fff;
 }
 
-    #blazor-error-ui .dismiss[b-qgsvw684bo] {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+@keyframes Gradient-b-qgsvw684bo {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}

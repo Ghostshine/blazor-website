@@ -16,7 +16,6 @@ C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\s
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\scopedcss\bundle\BlazorApp.styles.css
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\scopedcss\projectbundle\BlazorApp.bundle.scp.css
-C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\niqfivrdr6-khy4lop6wu.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\4fjygrhgud-bqjiyaj88i.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\rr9cuthk2h-c2jlpeoesf.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\8nurldnakx-erw9l3u2r3.gz
@@ -61,8 +60,6 @@ C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\c
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\5njhqh7xtn-h1s4sie4z3.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\kxietpdl1t-63fj8s7r0e.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\opd9y4aud5-0j3bgjxly4.gz
-C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\io2m3ndci8-gkfn466dw3.gz
-C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\wo77s772mi-gkfn466dw3.gz
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -73,3 +70,7 @@ C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\r
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\BlazorApp.pdb
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\BlazorApp.genruntimeconfig.cache
 C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\ref\BlazorApp.dll
+C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\BlazorApp.sourcelink.json
+C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\niqfivrdr6-6vxc28d2on.gz
+C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\io2m3ndci8-x8bjwbtfmr.gz
+C:\Users\daria\Desktop\WSP\blazor-website\BlazorApp\BlazorApp\obj\Debug\net9.0\compressed\wo77s772mi-x8bjwbtfmr.gz
